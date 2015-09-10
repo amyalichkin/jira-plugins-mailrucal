@@ -1,5 +1,4 @@
-(function ($) {
-    AJS.toInit(function () {
+    AJS.toInit(function ($) {
         var $calendar = $('#calendar-full-calendar');
         var fullCalendarInstance;
         var sharedCounter;
@@ -954,4 +953,3 @@
             }));
         }
     });
-})(AJS.$);
